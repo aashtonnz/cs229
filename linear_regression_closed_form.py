@@ -8,7 +8,7 @@ SPLIT = 0.7
 SAMPLE = 20
 
 # Get data field
-df = pd.read_csv("/home/andrew/cs229/datasets/happiness.csv")
+df = pd.read_csv("happiness.csv")
 
 # Add bias and shuffle
 data = df.as_matrix()
